@@ -11,7 +11,9 @@ function App() {
   //let posts={color:'blue',fontSize:'30px'}
 
   function 제목바꾸기(){
-      글제목변경(['여자 코트 추천','강남 우동 맛집','강북 우동 맛집']);
+     var newArray=[...글제목];
+     newArray[0]='여자코트 추천';
+      글제목변경(newArray);
   }
                                            
   return (
