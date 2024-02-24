@@ -17,6 +17,12 @@ body{
   box-sizing: border-box;
 }
 
+.modal{
+  margin-top: 20px;
+  padding: 20px;
+  background: #eee;
+}
+
 .list{
   margin-top: 30px;
   text-align: left;
